@@ -1,0 +1,178 @@
+body {
+ background-color: #12070b; /* Dark Pink Background */
+ color: #ffffff; /* White text */
+}
+
+h1, h2, h3, h4, h5, h6 {
+ color: #ffffff; /* White headings */
+}
+
+.hero {
+ background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ color: white;
+}
+
+/* Sticky navbar styles */
+nav {
+ position: fixed; /* Fixed position for the navbar */
+ bottom: 0; /* Stick it to the bottom of the particle area */
+ background-color: #333; /* Background color */
+ z-index: 100; /* Ensure it appears on top */
+ width: 100%; /* Full width */
+}
+
+/* Navbar at the bottom */
+header.navbar {
+ position: fixed; /* Use fixed to keep it at the bottom */
+ bottom: 0; /* Stick it to the bottom of the particle area */
+ width: 100%; /* Full width */
+ background-color: #e91e63; /* Background color */
+ z-index: 10; /* On top of the particles */
+ padding: 5px 0; /* Reduced padding */
+ height: 50px; /* Set a height for the navbar */
+ display: flex; /* Use flexbox for alignment */
+ align-items: center; /* Center items vertically */
+}
+
+/* Navbar specific styles */
+.navbar {
+ background-color: #e91e63; /* Background color for Navbar */
+ padding: 0; /* Remove padding */
+ height: 100%; /* Fill the height of the header */
+}
+
+
+.btn {
+ background-color: #d81b60; /* Button color */
+ border: none;
+}
+
+button {
+ transition: all 0.3s ease;
+}
+
+button:hover {
+ transform: scale(1.05);
+ box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.btn:hover {
+ background-color: #f50057; /* Lighter pink on hover */
+}
+
+.footer {
+ background-color: #880e4f; /* Dark Pink Footer */
+ color: #ffffff;
+}
+
+
+header {
+ background-color: rgba(255, 255, 255, 0.9); /* Light background with transparency */
+ padding: 15px 20px; /* Padding around the header */
+ border-radius: 8px; /* Rounded corners */
+ box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+}
+
+header nav ul {
+ list-style: none; /* Remove bullets */
+ padding: 0; /* Remove padding */
+}
+
+header nav ul li {
+ display: inline; /* Inline list items */
+ margin-right: 20px; /* Space between items */
+}
+
+header nav ul li a {
+ text-decoration: none; /* Remove underline */
+ color: #e91e63; /* Use your dark pink color */
+ font-weight: bold; /* Bold text */
+}
+
+header .social-icons a {
+ margin-left: 10px; /* Space between social icons */
+ color: #e91e63; /* Match social icon color with navbar */
+}
+
+.nav-link {
+ padding: 10px 20px; /* Add some padding */
+ color: white; /* Change text color */
+ transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+ border-radius: 5px; /* Rounded corners */
+}
+
+.nav-link:hover {
+ background-color: #f50057; /* Background color on hover */
+ transform: scale(1.05); /* Slightly scale up on hover */
+}
+
+#particles-js {
+ position: absolute; /* Keeps it positioned */
+ width: 100%; /* Full width */
+ height: 100vh; /* Adjust height to leave space for the navbar (60px is an example height) */
+ background: radial-gradient(circle at 50% 50%, #000011, #000033, #000055); /* Deep space gradient */
+ z-index: -1; /* Ensure it's behind content */
+}
+
+.skill-icon {
+ width: 80px;
+ height: 80px;
+ margin-bottom: 15px;
+ transition: transform 0.3s ease;
+}
+
+.skill-icon:hover {
+ transform: scale(1.1);
+}
+
+.progress {
+ background-color: #e9ecef;
+ height: 20px;
+ border-radius: 10px;
+ margin-top: 10px;
+}
+
+.progress-bar {
+ font-weight: bold;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border-radius: 10px;
+ transition: width 0.4s ease;
+}
+
+.col-md-4 {
+ transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.col-md-4:hover {
+ transform: scale(1.05);
+ background-color: rgba(255, 255, 255, 0.05);
+ border-radius: 10px;
+ padding: 15px;
+}
+
+.text-light {
+ color: #fff;
+}
+
+.tech-icons {
+ display: flex;
+ gap: 15px; /* Space between icons */
+ font-size: 24px; /* Adjust size as needed */
+ margin-top: 20px; /* Space above icons */
+}
+
+.tech-icons i {
+ color: #ffffff; /* Change the icon color */
+ transition: color 0.3s; /* Smooth transition effect */
+}
+
+.tech-icons i:hover {
+ color: #f39c12; /* Change color on hover */
+}
